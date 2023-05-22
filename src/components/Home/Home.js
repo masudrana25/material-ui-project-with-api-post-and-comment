@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Post from '../Post/Post';
+import './Home.css'
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -10,6 +11,8 @@ const Home = () => {
   }, []);
   return (
     <div className='home'>
+      <h1 className='bbbbb'>Welcome to Himu Facebook App</h1>
+      <h3 className='bbbbb'>Let's See Our Post Below</h3>
       {
         posts.map( postData => <Post postData={postData}></Post>)
       }

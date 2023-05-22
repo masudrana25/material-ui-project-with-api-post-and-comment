@@ -9,7 +9,7 @@ const Post = (props) => {
       
       <h2><span className='postTitle'>Post Title :</span> {title}</h2>
       <p> <span className='postBody'>Post Body :</span> {body}</p>
-      <Link to={`/postDetails/${id}`}><button className='buttonStyle'>See more about ID: {id}</button></Link>
+      <Link to={`/postDetails/${id}`}><button className='buttonStyle'>See more about Post : {id}</button></Link>
     </div>
   );
 };
