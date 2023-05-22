@@ -8,7 +8,6 @@ const Home = () => {
       .then(res => res.json())
       .then(data => setPosts(data))
   }, []);
-  console.log(posts);
   return (
     <div className='home'>
       {

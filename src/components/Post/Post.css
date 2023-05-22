@@ -1,6 +1,27 @@
 .post{
      border: 2px solid purple;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 20px 10px 20px;
     padding: 10px;
+}
+.post h1{
+    color: purple;
+}
+.postBody{
+    font-weight: bold;
+    color: brown;
+}
+.postTitle{
+    color: brown;
+}
+.buttonStyle{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
 }

@@ -1,0 +1,16 @@
+.commentsDetails{
+  color: black;
+  /* background-color: black; */
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid red;
+  margin: 10px 20px 10px 20px;
+}
+.commentBody{
+  font-weight: bold;
+  color: brown;
+}
+.emailAdress{
+  color: blue;
+  text-decoration: underline;
+}

@@ -3,12 +3,13 @@ import './Post.css'
 import { Link } from 'react-router-dom';
 
 const Post = (props) => {
-  const { title, body } = props.postData;
+  const { title, body, id } = props.postData;
   return (
     <div className='post'>
-      <h1>Title : {title}</h1>
-      <p> Body : {body}</p>
-      <Link to="/postDetails"><button>See more...</button></Link>
+      
+      <h2><span className='postTitle'>Post Title :</span> {title}</h2>
+      <p> <span className='postBody'>Post Body :</span> {body}</p>
+      <Link to={`/postDetails/${id}`}><button className='buttonStyle'>See more about ID: {id}</button></Link>
     </div>
   );
 };

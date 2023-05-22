@@ -13,7 +13,7 @@ function App() {
           <Route>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
-            <Route path='/postDetails' element={<PostDetails/>}/>
+            <Route path='/postDetails/:id' element={<PostDetails/>}/>
 
             <Route path='*' element={<NotFound />} />
           </Route>
